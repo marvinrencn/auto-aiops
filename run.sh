@@ -1,0 +1,1 @@
+uvicorn aiops.__main__:app

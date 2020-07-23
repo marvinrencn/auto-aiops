@@ -1,7 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="994b5118-1a1e-4856-857c-1301501fceb7" name="Default Changelist" comment="" />
+    <list default="true" id="994b5118-1a1e-4856-857c-1301501fceb7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/aiops/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/AnomalyDetection.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/AnomalyDetectionPoc.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/poc_design_flow_01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/poc_result_01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notebook/LSTM.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notebook/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notebook/data/aim_business_cluster_60101020016000109719_train.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/benchmark.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/Administrator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/Administrator.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/open-aiops.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/open-aiops.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aiops/__main__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aiops/database/database.py" beforeDir="false" afterPath="$PROJECT_DIR$/aiops/database/database.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aiops/database/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/aiops/database/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aiops/database/repository.py" beforeDir="false" afterPath="$PROJECT_DIR$/aiops/database/repository.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aiops/learnware/LearnwareBase.py" beforeDir="false" afterPath="$PROJECT_DIR$/aiops/learnware/LearnwareBase.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aiops/learnware/MachineLearnware.py" beforeDir="false" afterPath="$PROJECT_DIR$/aiops/learnware/MachineLearnware.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aiops/learnware/model_cache.py" beforeDir="false" afterPath="$PROJECT_DIR$/aiops/learnware/model_cache.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aiops/router/routers.py" beforeDir="false" afterPath="$PROJECT_DIR$/aiops/router/routers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aiops/schema/schemas.py" beforeDir="false" afterPath="$PROJECT_DIR$/aiops/schema/schemas.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements/default.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements/default.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements/test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements/test.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run.bat" beforeDir="false" afterPath="$PROJECT_DIR$/run.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run.sh" beforeDir="false" afterPath="$PROJECT_DIR$/run.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/machine_learnware_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/machine_learnware_test.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,26 +67,161 @@
         </counts>
       </usages-collector>
     </session>
+    <session id="1898998312">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.14" value="1" />
+          <entry key="project.open.time.29" value="1" />
+          <entry key="project.open.time.5" value="2" />
+          <entry key="project.open.time.6" value="1" />
+          <entry key="project.open.time.8" value="2" />
+          <entry key="project.opened" value="7" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="Dockerfile" value="38" />
+          <entry key="dummy" value="18" />
+          <entry key="md" value="197" />
+          <entry key="py" value="13384" />
+          <entry key="txt" value="86" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="Markdown" value="197" />
+          <entry key="PLAIN_TEXT" value="142" />
+          <entry key="Python" value="13384" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="Dockerfile" value="1" />
+          <entry key="MachineAnomalyDetectionRequest" value="1" />
+          <entry key="bat" value="2" />
+          <entry key="csv" value="1" />
+          <entry key="ipynb" value="2" />
+          <entry key="md" value="2" />
+          <entry key="py" value="56" />
+          <entry key="sh" value="1" />
+          <entry key="txt" value="9" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="IPNB" value="2" />
+          <entry key="Markdown" value="2" />
+          <entry key="PLAIN_TEXT" value="15" />
+          <entry key="Python" value="56" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/requirements/default.txt">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Dockerfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19">
-              <caret line="1" column="9" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="9" />
+            <state relative-caret-position="81">
+              <caret line="3" column="21" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tests/benchmark.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="162">
+              <caret line="10" column="66" selection-start-line="10" selection-start-column="66" selection-end-line="10" selection-end-column="66" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/docs/AnomalyDetectionPoc.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="678">
+                <caret line="54" selection-start-line="54" selection-end-line="54" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/notebook/data/aim_business_cluster_60101020016000109719_train.csv">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="11718">
+              <caret line="434" selection-start-line="434" selection-end-line="434" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/notebook/Untitled.ipynb">
+          <provider selected="true" editor-type-id="ipnb-editor">
+            <state>
+              <selected id="0" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/requirements/dev.txt">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tests/machine_learnware_test.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="27">
+              <caret line="26" column="36" selection-start-line="26" selection-start-column="36" selection-end-line="26" selection-end-column="36" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+                <marker date="1595170497608" expanded="true" signature="127:128" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/requirements/test.txt">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="27">
+              <caret line="1" column="6" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/requirements/dev.txt">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/aiops/main.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="756">
+              <caret line="34" selection-start-line="34" selection-end-line="34" />
+              <folding>
+                <marker date="1595224830362" expanded="true" signature="607:608" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/aiops/schema/schemas.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="702">
+              <caret line="29" column="22" selection-start-line="29" selection-start-column="22" selection-end-line="29" selection-end-column="22" />
+              <folding>
+                <element signature="e#0#30#0" expanded="true" />
+                <marker date="1595228041389" expanded="true" signature="427:471" ph="..." />
+                <marker date="1595228041389" expanded="true" signature="427:473" ph="..." />
+              </folding>
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -66,21 +230,75 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
+        <option value="Jupyter Notebook" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>_feature_project</find>
+      <find>Load the data</find>
+      <find>head</find>
+      <find>po</find>
+      <find>use</find>
+      <find>reuse</find>
+      <find>save</find>
+      <find>_save_model</find>
+      <find>train_model</find>
+      <find>***</find>
+      <find>cosine_similarity</find>
+      <find>reload</find>
+      <find>fastapi</find>
+      <find>unico</find>
+      <find>uvicorn</find>
+      <find>sklearn</find>
+      <find>sqlalchemy</find>
+      <find>pymysql</find>
+      <find>pandas</find>
+      <find>numpy</find>
+      <find>matplotlib</find>
+      <find>_load_learnware_model</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/requirements/dev.txt" />
+        <option value="$PROJECT_DIR$/run.bat" />
+        <option value="$PROJECT_DIR$/run.sh" />
+        <option value="$PROJECT_DIR$/aiops/database/db.py" />
+        <option value="$PROJECT_DIR$/aiops/database/database.py" />
+        <option value="$PROJECT_DIR$/aiops/database/schemas.py" />
+        <option value="$PROJECT_DIR$/aiops/dto/MachineAnomalyDetectionRequest.py" />
+        <option value="$PROJECT_DIR$/aiops/learnware/LearnwareBase.py" />
+        <option value="$PROJECT_DIR$/aiops/schema/requests_shemas.py" />
+        <option value="$PROJECT_DIR$/aiops/database/models.py" />
+        <option value="$PROJECT_DIR$/aiops/database/repository.py" />
+        <option value="$PROJECT_DIR$/test.py" />
+        <option value="$PROJECT_DIR$/tests/machine_learnware_test.py" />
+        <option value="$PROJECT_DIR$/aiops/__main__.py" />
+        <option value="$PROJECT_DIR$/requirements.txt" />
         <option value="$PROJECT_DIR$/requirements/default.txt" />
+        <option value="$PROJECT_DIR$/aiops/learnware/MachineLearnware.py" />
+        <option value="$PROJECT_DIR$/aiops/learnware/model_cache.py" />
+        <option value="$PROJECT_DIR$/aiops/schema/schemas.py" />
+        <option value="$PROJECT_DIR$/aiops/router/routers.py" />
+        <option value="$PROJECT_DIR$/Dockerfile" />
+        <option value="$PROJECT_DIR$/requirements/test.txt" />
+        <option value="$PROJECT_DIR$/tests/benchmark.py" />
+        <option value="$PROJECT_DIR$/docs/AnomalyDetection.md" />
+        <option value="$PROJECT_DIR$/docs/AnomalyDetectionPoc.md" />
+        <option value="$PROJECT_DIR$/notebook/LSTM.ipynb" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="952" />
-    <option name="y" value="-8" />
-    <option name="width" value="976" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="599" />
+    <option name="y" value="63" />
+    <option name="width" value="1936" />
     <option name="height" value="1056" />
   </component>
   <component name="ProjectView">
@@ -93,18 +311,19 @@
         <subPane>
           <expand>
             <path>
-              <item name="open-aiops" type="b2602c69:ProjectViewProjectNode" />
-              <item name="open-aiops" type="462c0819:PsiDirectoryNode" />
+              <item name="auto-aiops" type="b2602c69:ProjectViewProjectNode" />
+              <item name="auto-aiops" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="open-aiops" type="b2602c69:ProjectViewProjectNode" />
-              <item name="open-aiops" type="462c0819:PsiDirectoryNode" />
-              <item name="aiops" type="462c0819:PsiDirectoryNode" />
+              <item name="auto-aiops" type="b2602c69:ProjectViewProjectNode" />
+              <item name="auto-aiops" type="462c0819:PsiDirectoryNode" />
+              <item name="notebook" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="open-aiops" type="b2602c69:ProjectViewProjectNode" />
-              <item name="open-aiops" type="462c0819:PsiDirectoryNode" />
-              <item name="requirements" type="462c0819:PsiDirectoryNode" />
+              <item name="auto-aiops" type="b2602c69:ProjectViewProjectNode" />
+              <item name="auto-aiops" type="462c0819:PsiDirectoryNode" />
+              <item name="notebook" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -113,10 +332,15 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\workspace\auto-aiops\docs" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\workspace\auto-aiops\notebook\data" />
       <recent name="D:\workspace\open-aiops\requirements" />
     </key>
   </component>
@@ -132,6 +356,117 @@
       </list>
     </option>
   </component>
+  <component name="RunManager" selected="Python tests.pytest in machine_learnware_test.py">
+    <configuration name="__main__" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="open-aiops" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/aiops" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="D:\workspace\auto-aiops\aiops\main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="benchmark" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="open-aiops" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tests/benchmark.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="open-aiops" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for machine_learnware_test.testMachineLearnware.testSelectModel" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="open-aiops" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;machine_learnware_test.testMachineLearnware.testSelectModel&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest in machine_learnware_test.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="open-aiops" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests/machine_learnware_test.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.__main__" />
+      <item itemvalue="Python.test" />
+      <item itemvalue="Python tests.pytest for machine_learnware_test.testMachineLearnware.testSelectModel" />
+      <item itemvalue="Python tests.pytest in machine_learnware_test.py" />
+      <item itemvalue="Python.benchmark" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python tests.pytest in machine_learnware_test.py" />
+        <item itemvalue="Python.benchmark" />
+        <item itemvalue="Python.__main__" />
+        <item itemvalue="Python tests.pytest for machine_learnware_test.testMachineLearnware.testSelectModel" />
+        <item itemvalue="Python.test" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -145,23 +480,56 @@
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="pytest_for_machine_learnware_test_testMachineLearnware_testSelectModel - 2020.07.19 at 22h 52m 47s.xml">
+      <configuration name="pytest for machine_learnware_test.testMachineLearnware.testSelectModel" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_machine_learnware_test_testMachineLearnware_testSelectModel - 2020.07.19 at 22h 54m 19s.xml">
+      <configuration name="pytest for machine_learnware_test.testMachineLearnware.testSelectModel" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_machine_learnware_test_testMachineLearnware_testSelectModel - 2020.07.19 at 22h 55m 06s.xml">
+      <configuration name="pytest for machine_learnware_test.testMachineLearnware.testSelectModel" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_machine_learnware_test_testMachineLearnware_testSelectModel - 2020.07.19 at 22h 56m 50s.xml">
+      <configuration name="pytest for machine_learnware_test.testMachineLearnware.testSelectModel" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_machine_learnware_test_testMachineLearnware_testSelectModel - 2020.07.19 at 22h 57m 51s.xml">
+      <configuration name="pytest for machine_learnware_test.testMachineLearnware.testSelectModel" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_machine_learnware_test_testMachineLearnware_testSelectModel - 2020.07.19 at 23h 00m 46s.xml">
+      <configuration name="pytest for machine_learnware_test.testMachineLearnware.testSelectModel" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_machine_learnware_test_py - 2020.07.20 at 13h 30m 22s.xml">
+      <configuration name="pytest in machine_learnware_test.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_machine_learnware_test_py - 2020.07.20 at 13h 41m 12s.xml">
+      <configuration name="pytest in machine_learnware_test.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_machine_learnware_test_py - 2020.07.20 at 13h 43m 23s.xml">
+      <configuration name="pytest in machine_learnware_test.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_machine_learnware_test_py - 2020.07.20 at 13h 45m 09s.xml">
+      <configuration name="pytest in machine_learnware_test.py" configurationId="tests" />
+    </history-entry>
+  </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <editor active="true" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24960339" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Python Console" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4984756" visible="true" weight="0.160148" />
+      <window_info id="Structure" order="1" sideWeight="0.5015244" side_tool="true" weight="0.160148" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3295838" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.33408323" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39932507" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -171,16 +539,297 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/pydantic/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="314" column="6" selection-start-line="314" selection-start-column="6" selection-end-line="314" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/run.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="26" selection-start-column="26" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/sqlalchemy/pool/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="655" selection-start-line="655" selection-end-line="655" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/sqlalchemy/engine/strategies.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="113" selection-start-line="113" selection-end-line="113" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/pymysql/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="93" selection-start-line="93" selection-end-line="93" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/sqlalchemy/engine/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="2096" selection-start-line="2096" selection-end-line="2096" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/sqlalchemy/sql/schema.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="4546" column="60" selection-start-line="4546" selection-start-column="50" selection-end-line="4546" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/sqlalchemy/engine/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="84" column="17" selection-start-line="84" selection-start-column="4" selection-end-line="84" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/run.bat">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="24" selection-start-column="24" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aiops/router/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aiops/database/database.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="6" column="69" selection-start-line="6" selection-start-column="56" selection-end-line="6" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aiops/dto/MachineAnomalyDetectionRequest.py" />
+    <entry file="file://$PROJECT_DIR$/aiops/schema/requests_shemas.py" />
+    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/fastapi/params.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="320" column="8" selection-start-line="320" selection-start-column="8" selection-end-line="320" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/fastapi/param_functions.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="243" column="21" selection-start-line="243" selection-start-column="21" selection-end-line="243" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/sklearn/externals/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/sqlalchemy/orm/session.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8">
+          <caret line="2315" column="8" selection-start-line="2315" selection-start-column="8" selection-end-line="2315" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aiops/database/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="29" column="66" selection-start-line="29" selection-start-column="66" selection-end-line="29" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/pandas/core/ops/array_ops.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="297" selection-start-line="297" selection-end-line="297" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aiops/database/repository.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.py" />
+    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/pymysql/converters.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1728">
+          <caret line="72" selection-start-line="72" selection-end-line="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/sqlalchemy/engine/default.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15525">
+          <caret line="592" selection-start-line="592" selection-end-line="592" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aiops/learnware/LearnwareBase.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="620">
+          <caret line="29" selection-start-line="29" selection-end-line="30" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/uvicorn/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-463">
+          <caret line="310" column="23" lean-forward="true" selection-start-line="310" selection-start-column="23" selection-end-line="310" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aiops/database/schemas.py" />
+    <entry file="file://$PROJECT_DIR$/requirements.txt" />
+    <entry file="file://$PROJECT_DIR$/aiops/learnware/model_cache.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="16" column="35" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requirements/default.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/fastapi/routing.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="146" selection-start-line="146" selection-end-line="146" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/AnomalyDetection.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="1242">
+            <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aiops/learnware/MachineLearnware.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="12" column="22" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+            <marker date="1595226279273" expanded="true" signature="429:3078" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aiops/router/routers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="621">
+          <caret line="30" selection-start-line="30" selection-end-line="33" selection-end-column="79" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="3" column="21" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/benchmark.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="10" column="66" selection-start-line="10" selection-start-column="66" selection-end-line="10" selection-end-column="66" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/requirements/dev.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/requirements/test.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/requirements/default.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" column="9" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="9" />
+        <state relative-caret-position="27">
+          <caret line="1" column="6" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aiops/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="756">
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
+          <folding>
+            <marker date="1595224830362" expanded="true" signature="607:608" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aiops/schema/schemas.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="702">
+          <caret line="29" column="22" selection-start-line="29" selection-start-column="22" selection-end-line="29" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+            <marker date="1595228041389" expanded="true" signature="427:471" ph="..." />
+            <marker date="1595228041389" expanded="true" signature="427:473" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/machine_learnware_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="26" column="36" selection-start-line="26" selection-start-column="36" selection-end-line="26" selection-end-column="36" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+            <marker date="1595170497608" expanded="true" signature="127:128" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/notebook/LSTM.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/AnomalyDetectionPoc.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="678">
+            <caret line="54" selection-start-line="54" selection-end-line="54" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/notebook/data/aim_business_cluster_60101020016000109719_train.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="11718">
+          <caret line="434" selection-start-line="434" selection-end-line="434" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/notebook/Untitled.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="0" />
         </state>
       </provider>
     </entry>
